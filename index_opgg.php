@@ -1,5 +1,4 @@
 <?php
 $nick = $_GET['nick'];
-
-echo $nick;
+exec("python3 index_opgg.py", $nick);
 ?>
